@@ -12,7 +12,7 @@ import { AlertProvider } from './component/context/alert/AlertContext.jsx';
 export default function App() {
   return (
     <GithubProvider>
-      <AlertProvider>
+      <AlertProvider> 
         <Router>
           <div className="flex flex-col justify-between h-screen">
             <Navbar />

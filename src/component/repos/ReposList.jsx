@@ -3,7 +3,7 @@ import GithubContext from "../context/github/githubContext";
 import ReposItem from "./ReposItem";
 
 export default function ReposList({ user_name }) {
-    const { repos} = useContext(GithubContext);
+    const { repos } = useContext(GithubContext);
 
     return (
         <div className="">
